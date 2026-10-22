@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Azwin Earnest's front-end development portfolio featuring responsive web projects.">
+  <title>Azwin Earnest — Front-End Developer</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Portfolio home">AE<span>.</span></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" aria-label="Primary navigation">
+      <a href="#work">Work</a>
+      <a href="#skills">Skills</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <button class="theme-toggle" type="button" aria-label="Switch colour theme">◐</button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home">
+      <p class="eyebrow">Front-end developer</p>
+      <h1>I build clear, responsive websites that feel good to use.</h1>
+      <p class="hero-copy">I turn practical ideas into polished browser experiences using semantic HTML, modern CSS, and JavaScript.</p>
+      <div class="actions">
+        <a class="button primary" href="#work">View my work</a>
+        <a class="button secondary" href="https://github.com/azwinearnest01-rgb">GitHub profile</a>
+      </div>
+      <ul class="quick-facts" aria-label="Core strengths">
+        <li><strong>Responsive</strong><span>Mobile-first layouts</span></li>
+        <li><strong>Interactive</strong><span>Useful JavaScript features</span></li>
+        <li><strong>Maintainable</strong><span>Clear project structure</span></li>
+      </ul>
+    </section>
+
+    <section class="section" id="work">
+      <div class="section-heading">
+        <p class="eyebrow">Selected projects</p>
+        <h2>Work built for real use cases</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card featured">
+          <div class="project-number">01</div>
+          <p class="project-type">Directory application</p>
+          <h3>FreshFind</h3>
+          <p>A responsive farmers-market directory with filtering, seasonal produce guidance, bookmarks, personal notes, geolocation, and guided help.</p>
+          <ul class="tags" aria-label="FreshFind technology">
+            <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Local Storage</li>
+          </ul>
+          <a href="https://github.com/azwinearnest01-rgb/fresh-find-website.">Explore repository <span aria-hidden="true">↗</span></a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-number">02</div>
+          <p class="project-type">E-commerce demonstration</p>
+          <h3>Bakez Bitz</h3>
+          <p>An interactive bakery storefront with live search, product sorting, a demonstration cart, galleries, reviews, merchandise, and responsive navigation.</p>
+          <ul class="tags" aria-label="Bakez Bitz technology">
+            <li>HTML</li><li>CSS</li><li>JavaScript</li>
+          </ul>
+          <a href="https://github.com/azwinearnest01-rgb/Bakery-website-">Explore repository <span aria-hidden="true">↗</span></a>
+        </article>
+
+        <article class="project-card next-card">
+          <div class="project-number">03</div>
+          <p class="project-type">Currently learning</p>
+          <h3>The next step</h3>
+          <p>A full-stack application with real authentication, persistent data, validation, and deployment—building on the foundations demonstrated above.</p>
+          <ul class="tags" aria-label="Planned technology">
+            <li>APIs</li><li>Database</li><li>Authentication</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section split" id="skills">
+      <div>
+        <p class="eyebrow">Capabilities</p>
+        <h2>Strong foundations, deliberately growing</h2>
+      </div>
+      <div class="skill-list">
+        <div><span>01</span><h3>Interface development</h3><p>Semantic HTML, flexible CSS layouts, visual hierarchy, and responsive behaviour.</p></div>
+        <div><span>02</span><h3>Browser interaction</h3><p>DOM updates, forms, filtering, local storage, and browser APIs with vanilla JavaScript.</p></div>
+        <div><span>03</span><h3>Project presentation</h3><p>Organized source code, clear documentation, Git history, and deployment-ready structure.</p></div>
+      </div>
+    </section>
+
+    <section class="section statement" id="about">
+      <p class="eyebrow">About</p>
+      <h2>I’m developing my skills by finishing projects properly—not just making screenshots.</h2>
+      <p>My current focus is turning front-end concepts into complete, understandable projects: responsive layouts, honest feature descriptions, usable interactions, clear repositories, and public deployments.</p>
+    </section>
+
+    <section class="section contact" id="contact">
+      <p class="eyebrow">Let’s connect</p>
+      <h2>See the code and follow what I build next.</h2>
+      <a class="button primary" href="https://github.com/azwinearnest01-rgb">Visit GitHub profile</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Azwin Earnest. Built with HTML, CSS, and JavaScript.</p>
+  </footer>
+</body>
+</html>
